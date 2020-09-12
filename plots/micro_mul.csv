@@ -1,0 +1,5 @@
+comment,flag,function,impl,cycles
+base_no_opt_mul,no_opt,mul,base,2160.145000
+opt_all_no_opt_mul_vec,no_opt,mul_vec,opt_all,1290.650000
+base_o3_mul,o3,mul,base,1348.892500
+opt_all_o3_mul_vec,o3,mul_vec,opt_all,248.998750

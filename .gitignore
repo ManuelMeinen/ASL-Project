@@ -1,0 +1,10 @@
+/benchmark_framework/benchmark_results/
+/benchmark_framework/microbenchmark_results/
+.DS_Store
+report/report.aux
+report/report.bbl
+report/report.blg
+report/report.fdb_latexmk
+report/report.fls
+report/report.log
+report/report.synctex.gz

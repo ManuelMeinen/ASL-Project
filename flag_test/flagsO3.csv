@@ -1,0 +1,16 @@
+-fno-gcse-after-reload 
+-fno-ipa-cp-clone
+-fno-loop-interchange 
+-fno-loop-unroll-and-jam 
+-fno-peel-loops 
+-fno-predictive-commoning 
+-fno-split-loops 
+-fno-split-paths 
+-fno-tree-loop-distribution 
+-fno-tree-loop-vectorize 
+-fno-tree-partial-pre 
+-fno-tree-slp-vectorize 
+-fno-unswitch-loops 
+-fno-vect-cost-model 
+-fno-vect-cost-model=dynamic 
+-fno-version-loops-for-strides

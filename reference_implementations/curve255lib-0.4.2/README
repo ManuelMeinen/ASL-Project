@@ -1,0 +1,43 @@
+This library is an evolution of the public domain library by
+Daniel J. Bernstein ( http://cr.yp.to/ecdh/curve25519-20050915.tar.gz ).
+
+Unlike the original, which is extremely fast machine code doing most
+of the work using floating point registers, this is a portable
+implementation using the GMP library.
+
+An implementation of the function is javascript is included in
+curve25519.html.
+
+Security note: this implementation is not resistant to timing attacks.
+
+Some test programs are included in the present distribution:
+
+* 'curve25519test': Its output should be identical to that of the
+  test-curve25519 program in the curve25519-20050915 library.
+  'curve25519test.txt' provides the first 100 lines of output.
+
+* 'curve25519': provides a command-line interface to the curve25519 function,
+  usable in scripts or by external programs.  Input and output can be in
+  base32, hexadecimal or inverted-byte hexadecimal format (the one
+  used in the original library's test program).
+
+  The TESTDUMP file provides sample input and output (to verify the correctness of the
+  implementation).
+
+
+Enjoy!
+
+Copyright (c) 2007, 2013 Michele Bini
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Lesser General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+details.
+
+You should have received a copy of the GNU Lesser General Public License along
+with this program.  If not, see <http://www.gnu.org/licenses/>.

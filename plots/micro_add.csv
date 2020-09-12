@@ -1,0 +1,4 @@
+comment,flag,function,impl,cycles
+base_add,no_opt,add,base,1643.062500
+base_add_no_reduce,no_opt,add_no_reduce,base,434.542500
+opt_all_add,no_opt,add_vec,opt_all,31.457500

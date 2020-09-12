@@ -1,0 +1,52 @@
+$ ./curve25519 a a
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+$ ./curve25519 a b
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+$ ./curve25519 b b                                                                                                                                                               
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+$ ./curve25519 c b                                                                                                                                                               
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+$ ./curve25519 b c 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaac
+$ ./curve25519 c c                                                                                                                                                               
+pampbk6vyevex5xigrwjgyfulnhbuhgwd7tkzqkh7v2miswn7e4
+$ ./curve25519 b i                                                                                                                                                               
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaai
+$ ./curve25519 c i                                                                                                                                                               
+guj5mka2zw2idgwhg5ikzo4evku3bo7afnsz5i4rpaz6cc437gb
+$ ./curve25519 d i                                                                                                                                                               
+d3n57c43fiqx4f7yhyxmhivu2wa6vdsyi6nsuojczblchm77s6r
+$ ./curve25519 e i                                                                                                                                                               
+ohckcvu3fyeykjh4fz5yn4gnh6n2yvwqooh3mr7fzxij2emsljs
+$ ./curve25519 abc i
+ahxuieas27cdyyetax3m77qs5zbrthzyirp4dn7tckdrnwrxlnq
+$ ./curve25519 foo i                                                                                                                                                             
+s2odcu4x4wnuuyc56fsifq2dz5mccobkkv3xeagopi3zowq2n5q
+$ ./curve25519 foobarbaz i                                                                                                                                                       
+videqgrztf73htnkbr7bd7sqgkmbucs7uvbzosmkiunsswexace
+$ ./curve25519 videqgrztf73htnkbr7bd7sqgkmbucs7uvbzosmkiunsswexace i
+2apgtobz4hloi6fwwms76wirz6p2pgct67gmqujqtd7yeh4hpfr
+$ ./curve25519 foo i
+s2odcu4x4wnuuyc56fsifq2dz5mccobkkv3xeagopi3zowq2n5q
+$ ./curve25519 bar i                                                                                                                                                             
+tqu34hr25kf4hpqsb57y6ol7mfyhr6saxaj5zl224jboljgn42k
+$ ./curve25519 bar s2odcu4x4wnuuyc56fsifq2dz5mccobkkv3xeagopi3zowq2n5q
+komnfoun7ian22oxt745n63pcejll7t2wppwp2wcletvzrvhwrx
+$ ./curve25519 foo tqu34hr25kf4hpqsb57y6ol7mfyhr6saxaj5zl224jboljgn42k
+komnfoun7ian22oxt745n63pcejll7t2wppwp2wcletvzrvhwrx
+$ ./curve25519 baz i
+bdig4v64pnio2pm5bcy26phwo2tx5kophaw4nkdelsfv4wqt6tg
+$ ./curve25519 baz komnfoun7ian22oxt745n63pcejll7t2wppwp2wcletvzrvhwrx
+o5zgsj62wwyrwzt6k5qthkayistmyjeh4lyoq4ovpeglcf5cin2
+$ ./curve25519 foo bdig4v64pnio2pm5bcy26phwo2tx5kophaw4nkdelsfv4wqt6tg
+7jascli4dyxhuuxir62i2e7a5ihaxqb5b4leecygbt2nm5ae364
+$ ./curve25519 bar 7jascli4dyxhuuxir62i2e7a5ihaxqb5b4leecygbt2nm5ae364
+o5zgsj62wwyrwzt6k5qthkayistmyjeh4lyoq4ovpeglcf5cin2
+$ ./curve25519 o5zgsj62wwyrwzt6k5qthkayistmyjeh4lyoq4ovpeglcf5cin2 i
+ubysmzslrcalud5bgm7npbrbd43hbe46mawki3gkruru5hddfhd
+$ ./curve25519 7jascli4dyxhuuxir62i2e7a5ihaxqb5b4leecygbt2nm5ae364 i
+5rm7fx5fiiszesvf7ejzyrntskaq2eioqnwx4ha4pfedx63nkhh
+$ ./curve25519 7jascli4dyxhuuxir62i2e7a5ihaxqb5b4leecygbt2nm5ae364 ubysmzslrcalud5bgm7npbrbd43hbe46mawki3gkruru5hddfhd
+elfc57xqkuh5tgwn2x45idkrl5md7dqmpdvm3jm7xbnk3w75qul
+$ ./curve25519 o5zgsj62wwyrwzt6k5qthkayistmyjeh4lyoq4ovpeglcf5cin2 5rm7fx5fiiszesvf7ejzyrntskaq2eioqnwx4ha4pfedx63nkhh
+elfc57xqkuh5tgwn2x45idkrl5md7dqmpdvm3jm7xbnk3w75qul
