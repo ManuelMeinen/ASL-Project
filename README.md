@@ -9,6 +9,7 @@ Each implementation has a folder containing the 256-bit arithmetic functions and
 The folder `reference_implementations` contains several implementations, which we used as a reference for our project.
 
 There are some additional folders containing things like plots, conversion tools etc.
+The implementation is not tested to be safe against side-channel attacks.
 
 ## How to run it
 From the folder `benchmark_framework` run the following shell script:
